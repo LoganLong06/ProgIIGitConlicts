@@ -4,6 +4,6 @@ package ca.qc.cegepheritage;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        // You may use your main as a sandbox
+
     }
 }
