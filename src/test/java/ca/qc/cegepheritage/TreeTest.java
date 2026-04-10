@@ -34,5 +34,11 @@ class TreeTest {
         assertFalse(1 == 2);
     }
 
+    @Test
+    public void testIfTreeIsTreeReturnsTrue() {
+        TestTree tree = new TestTree("Tree",2,2);
+        assertInstanceOf(TestTree.class, tree);
+    }
+
 
 }
