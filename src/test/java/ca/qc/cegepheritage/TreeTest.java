@@ -24,8 +24,13 @@ class TreeTest {
     }
     @Test
     public void testGetInfoReturnsCorrectString() {
+        TestTree tree = new TestTree("Tree",80000,3);
+        assertEquals("Tree has been in the garden for 80000 days and is 3 years old.",tree.getInfo());
+    }
+    @Test
+    public void testIfTreeIsTreeReturnsTrue() {
         TestTree tree = new TestTree("Tree",2,2);
-        assertEquals("Tree has been in the garden for 2 days and is 2 years old.",tree.getInfo());
+        assertInstanceOf(TestTree.class, tree);
     }
 
 
