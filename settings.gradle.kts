@@ -1,0 +1,1 @@
+rootProject.name = "G20-W26-A1"
