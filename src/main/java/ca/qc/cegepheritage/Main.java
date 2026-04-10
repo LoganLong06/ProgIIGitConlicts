@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Why is this so cooked");
         System.out.println("WHAT WILL YOU HAVE AFTER 5000 YEARS!!?!?!?!?");
         System.out.println("I AM SO LONELY");
+        int a = 0;
 
     }
 }
